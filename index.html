@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img
+            id="header-img"
+            src="img/pizza-logo.png"
+            alt="pizza-logo"
+          />
+        </div>
+
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#range">Range</a></li>
+            <li><a class="nav-link" href="#recipes">Recipes</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="container"></div>
+
+      <section id="hero">
+        <h2>Taste Italy</h2>
+        <form id="form" action="#">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" value="Get Started" class="btn" />
+        </form>
+      </section>
+
+      <div class="container">
+        <section id="features">
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+            <div class="desc">
+              <h2>Quality</h2>
+              <p>
+                We use high quality products
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+            <div class="desc">
+              <h2>Fast Shipping</h2>
+              <p>
+                We make sure you recieve your pizza as soon as we have
+                finished making it.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+            </div>
+            <div class="desc">
+              <h2>Original taste</h2>
+              <p>
+                The best traditions of Italian cuisine
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="how-it-works">
+          <iframe
+            id="video"
+            height="315"
+            src="https://www.youtube.com/watch?v=ZYPBTvjZl7M"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section id="pricing">
+          <div class="product" id="pizza">
+            <div class="level">Pizza</div>
+            <h2>$2,71</h2>
+            <ol>
+              <li>Margarita.</li>
+              <li>Carbonara.</li>
+              <li>Neapolitan.</li>
+              <li>Crudo.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="italian-pasta">
+            <div class="level">Italian pasta</div>
+            <h2>$4</h2>
+            <ol>
+              <li>Spaghetti</li>
+              <li>Bucatini</li>
+              <li>Fettuccini</li>
+              <li>Fusilli</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="italian-soups">
+            <div class="level">Italian soups</div>
+            <h2>$3</h2>
+            <ol>
+              <li>Aquacotta</li>
+              <li>Banyun</li>
+              <li>Buridda</li>
+              <li>Gallura</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+        </section>
+        <footer>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span>Copyright 2016, Original Trombones</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
